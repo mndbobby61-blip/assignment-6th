@@ -9,7 +9,7 @@ import Pricing from './component/Pricing';
 import Footer from './component/Footer';
 
 const getModels = async () => {
-  const res = await fetch("models.json")
+  const res = await fetch("/models.json")
   return res.json()
 }
 
