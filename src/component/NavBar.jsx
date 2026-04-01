@@ -3,11 +3,11 @@ const NavBar = ({ carts }) => {
     <div className="navbar">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-xl">
-          <img className="w-10" src="public/DigiTools.png" />
+          <img className="w-10 bg-white" src="public/DigiTools.png" />
         </div>
       </div>
       <div className="navbar-center hidden md:flex">
-        <ul className="menu menu-horizontal gap-10 px-1 text-lg">
+        <ul className="menu menu-horizontal gap-4 px-1 text-lg">
           <li>
             <a>Products</a>
             </li>
